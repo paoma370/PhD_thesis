@@ -1,5 +1,5 @@
 # PhD_thesis
-This repository contains all my work for my PhD thesis "Co-occurrence of modal markers in Latin: a quantitative and qualitative analysis". 
+This repository contains all my work for my PhD thesis "Co-occurrence of modal markers in Latin: a quantitative and qualitative analysis". My Phd thesis is part of the wider project "WoPoss. A world of possibilities. Modal pathways over an extra-long period of time: the diachrony of modality in the Latin language", funded by the Swiss National Science Foundation (SNSF n° 176778) for the period spanning from February 2019 to January 2023, and hosted at the University of Neuchâtel, Institut des sciences du langage (ISLa). 
 
 ## Notes about **SOURCE FILES**
 - Sallust contains Bellum Iugurtinum; Bellum Catilinae; but also Orationes and Epistulae (not part of the corpus, delete those texts from processing)
