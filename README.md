@@ -8,3 +8,6 @@ This repository contains all my work for my PhD thesis "Co-occurrence of modal m
 ## Notes about **TXT FILES**
 - histo_all contains also Bellum Hispanicum, which takes it up to 132k tokens. This probably unbalances the corpus. none of the co-occurrences extracted from this work is modal. probably take it out for the final version of the corpus
 - histo_nohisp.txt < txt_files is the file with historiographic texts without Bellum Hispanicum
+
+## Notes about **TXT FILES**
+As can be seen from the name of the output files, all the outputs for quantitative analysis were obtained on the corpus **_without_** the Bellum Hispanicum.
