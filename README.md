@@ -11,3 +11,6 @@ This repository contains all my work for my PhD thesis "Co-occurrence of modal m
 
 ## Notes about **TXT FILES**
 As can be seen from the name of the output files, all the outputs for quantitative analysis were obtained on the corpus **_without_** the Bellum Hispanicum.
+
+## Notes about **TXT FILES**
+- extract_sentences_old.py is missing the calculation of percentage in the stats output file
