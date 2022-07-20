@@ -14,3 +14,4 @@ As can be seen from the name of the output files, all the outputs for quantitati
 
 ## Notes about **TXT FILES**
 - extract_sentences_old.py is missing the calculation of percentage in the stats output file
+- extract_sentences_old2.py still checks on "dubio" and "certo" as lemmas. This leads to falso co-occurrences with the verb "certo, -are". The adverbial forms of the two adjectives are lemmatised under the lemma of the adjective
