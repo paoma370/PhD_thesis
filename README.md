@@ -20,6 +20,7 @@ As can be seen from the name of the output files, all the outputs for quantitati
 ## Notes about **SCRIPTS**
 - extract_sentences_old.py is missing the calculation of percentage in the stats output file
 - extract_sentences_old2.py still checks on "dubio" and "certo" as lemmas. This leads to falso co-occurrences with the verb "certo, -are". The adverbial forms of the two adjectives are lemmatised under the lemma of the adjective
+- extract_sentences_old3.py is missing the manual check on fortasse: the lemmatisation of fortasse is almost always wrong, so I check on the form instead of the lemma. **NB. there is one occurrence of *fortassis*, which is lemmatised as *fortasse*: so I leave *fortasse* in the list of lemmas in order to get the occurrences of *fortassis*
 
 ## Notes about the annotation
 The lemmatisation is systematically wrong for:
