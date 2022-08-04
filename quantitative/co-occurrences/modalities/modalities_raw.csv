@@ -1,0 +1,6 @@
+__context__	deontic acceptability	deontic authority	dynamic necessity	dynamic possibility	epistemic
+deontic acceptability	26	18	5	27	5
+deontic authority	18	74	10	40	6
+dynamic necessity	5	10	50	127	18
+dynamic possibility	27	40	127	392	55
+epistemic	5	6	18	55	30
