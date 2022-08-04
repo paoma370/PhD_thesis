@@ -39,7 +39,7 @@ with open('combinations_modalities.csv', 'w') as f:
     write.writerows(combinations)
     
 
-# build matrix from output file combinations and save it to file matrix_both
+# build matrix from output file combinations and save it to file matrix_both. NB. produces BASE MATRIX, use it just to check if the Orange output is right
 
 df = pd.read_csv('combinations_modalities.csv', names=['mod1', 'mod2'])
 # print(df)
@@ -55,4 +55,4 @@ m.index.name = None
 m = m.fillna(0)
 print(m)
 
-m.to_csv('matrix_modalities.csv', index=True)
+m.to_csv('basematrix_modalities.csv', index=True)
