@@ -1,0 +1,92 @@
+Source,Target,__id__,weight
+oportet,aptus,1,2.61842105263158
+possum,aptus,2,1.31788079470199
+fortasse,certe,3,6.03030303030303
+possum,certe,4,1.61739915713426
+debeo,certus,5,9.18461538461538
+certe,debeo,6,2.15367965367965
+certus,debeo,7,3.15873015873016
+debeo,debeo,8,2.33260073260073
+dubius,debeo,9,1.8952380952381
+facultas,debeo,10,0.947619047619047
+fortasse,debeo,11,1.05291005291005
+forte,debeo,12,0.947619047619047
+licet,debeo,13,0.78968253968254
+oportet,debeo,14,0.6234335839599
+possum,debeo,15,0.84720908230842
+oportet,decet,16,7.85526315789474
+dubius,dubius,17,14.925
+forte,dubius,18,7.4625
+oportet,dubius,19,2.94572368421053
+possum,dubius,20,0.741307947019868
+opus sum,facultas,21,14.925
+possum,facultas,22,1.58145695364238
+possum,forsitan,23,1.97682119205298
+fortasse,fortasse,24,11.0555555555556
+licet,fortasse,25,2.07291666666667
+possum,fortasse,26,0.98841059602649
+possum,forte,27,1.97682119205298
+possum,incertus,28,1.97682119205298
+aequus,iniquus,29,597
+certe,licet,30,0.753787878787879
+facultas,licet,31,1.65833333333333
+fortasse,licet,32,0.921296296296296
+licet,licet,33,5.18229166666667
+necessarius,licet,34,5.52777777777778
+necesse sum,licet,35,2.76388888888889
+oportet,licet,36,0.87280701754386
+possum,licet,37,0.604028697571744
+facultas,necessario,38,9.95
+necesse sum,necessario,39,8.29166666666667
+opus sum,necessario,40,12.4375
+possum,necessario,41,0.98841059602649
+necesse sum,necessarius,42,24.875
+possum,necessarius,43,0.98841059602649
+certe,necesse sum,44,3.01515151515152
+debeo,necesse sum,45,1.02051282051282
+fortasse,necesse sum,46,3.68518518518519
+licet,necesse sum,47,2.76388888888889
+necesse sum,necesse sum,48,2.76388888888889
+oportet,necesse sum,49,0.43640350877193
+possum,necesse sum,50,0.658940397350993
+debeo,necessitas,51,9.18461538461538
+certe,oportet,52,0.695804195804196
+debeo,oportet,53,0.471005917159763
+dubius,oportet,54,3.06153846153846
+facultas,oportet,55,1.53076923076923
+licet,oportet,56,1.91346153846154
+necessario,oportet,57,2.18681318681319
+necessarius,oportet,58,5.1025641025641
+necesse sum,oportet,59,1.27564102564103
+oportet,oportet,60,1.61133603238866
+possum,oportet,61,0.811003565970453
+potestas,oportet,62,7.65384615384615
+certe,opus sum,63,4.52272727272727
+oportet,opus sum,64,1.30921052631579
+opus sum,opus sum,65,12.4375
+possum,opus sum,66,0.98841059602649
+certe,possum,67,0.859198848644759
+certus,possum,68,0.525065963060686
+debeo,possum,69,1.01782017454841
+decet,possum,70,1.57519788918206
+dubius,possum,71,0.315039577836412
+facultas,possum,72,0.945118733509235
+forsitan,possum,73,1.57519788918206
+fortasse,possum,74,0.787598944591029
+forte,possum,75,1.26015831134565
+licet,possum,76,0.590699208443272
+necessario,possum,77,1.35016961929891
+necessarius,possum,78,0.525065963060686
+necesse sum,possum,79,0.787598944591029
+necessitas,possum,80,1.57519788918206
+oportet,possum,81,1.03631440077767
+opus sum,possum,82,0.984498680738786
+possum,possum,83,1.08490450645652
+potestas,possum,84,0.787598944591029
+probabiliter,possum,85,1.57519788918206
+queo,possum,86,1.57519788918206
+certus,potestas,87,24.875
+debeo,potestas,88,1.14807692307692
+dubius,potestas,89,14.925
+oportet,potestas,90,1.96381578947368
+possum,potestas,91,0.741307947019868
