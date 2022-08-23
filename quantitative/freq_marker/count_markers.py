@@ -34,7 +34,7 @@ with open('corpus_nohisp_annota.tot_markers', 'r') as f: #open file obtained wit
             # file2.close()
         
 
-df_tot = pd.read_csv('corpus_nohisp_annota_tot_markers_v2.csv', quoting=csv.QUOTE_NONE)
+df_tot = pd.read_csv('corpus_nohisp_annota_tot_markers_v2.csv', quoting=csv.QUOTE_NONE) #warning: there is an issue here: the file created in the previous loop is not read as csv. so I need to re-import it as a csv, name it and re-run the script
 # print(df_tot)
 
         
