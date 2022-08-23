@@ -10,18 +10,18 @@ import pandas as pd
 import csv
 
 #count modal markers in co-occurrence
-df = pd.read_csv('curated_onlymodal.csv')
+df = pd.read_csv('curated_onlymodal.csv') #input file from qualitative analysis, sheet called markers-both
 # print(df)
 df2 = df.apply(pd.value_counts)
 # print(df2)
-df2['all_cooc'] = df2.sum(axis=1) #axis=1 for sum along the columns
+df2['all_cooc'] = df2.sum(axis=1) #add a column to input file for the sum of the markers. axis=1 for sum along the columns
 df2.to_csv('count_markers_modal.csv')
 
 # df2.head()
 
 #count tot markers
-with open('corpus_nohisp_annota.tot_markers', 'r') as f:
-    file2 = csv.writer (open('corpus_nohisp_annota_tot_markers.csv', 'w', newline=''), delimiter=',')
+with open('corpus_nohisp_annota.tot_markers', 'r') as f: #open file obtained with the script tot.markers and read it
+    file2 = csv.writer (open('corpus_nohisp_annota_tot_markers.csv', 'w', newline=''), delimiter=',') #open in writing a file to count the total of the markers in the corpus
     file2.writerow(['M1_tot','M2_tot','M3_tot','M4_tot','M5_tot','M6_tot','M7_tot'])
     for line in f:
         if line[0] == '#':
