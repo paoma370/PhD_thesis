@@ -42,7 +42,7 @@ from conllu import parse
 modal_lemmas_1 = ['debeo','possum','queo','nequeo','decet','licet','oportet','valet','iniquus','aptus','ineptus','certus','incertus',\
 	'dubius','licitus','illicitus','necessarius','aeque','certe','dubie','necessarium','necessario','dubium','facultas','possibilitas',\
 	'potestas','necessitas','necessitudo','probabilitas','forsitan','fortasse', 'forte','indubitate','indubitanter','necessarie',\
-	'possibiliter','probabiliter'] #deleted certo and dubio because they are lemmatised as certus and dubius #necessarium and dubio are also lemmatised with the adjective
+	'possibiliter','probabiliter'] #deleted certo and dubio because they are lemmatised as certus and dubius #necessarium and dubium are also lemmatised with the adjective
 #modal_lemmas_2=['aequum est','meum est','ius est','necesse est','opus est','usus est']
 #specific check on aequum est and aequus est line 144
 modal_lemmas_2a = ['meum','ius','necesse','opus','usus']
