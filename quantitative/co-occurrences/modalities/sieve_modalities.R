@@ -11,7 +11,10 @@ library(vcdExtra)
 
 new_m_modalities_raw <- as.matrix(m_modalities_raw_final)
 
-rownames(new_m_modalities_raw) <- c("Deo Acc", "Deo Auth", "Dyn Nec", "Dyn Pos", "Epi")
-colnames(new_m_modalities_raw) <- c("Deo Acc", "Deo Auth", "Dyn Nec", "Dyn Pos", "Epi")
+#rownames(new_m_modalities_raw) <- c("Deo Acc", "Deo Auth", "Dyn Nec", "Dyn Pos", "Epi")
+#colnames(new_m_modalities_raw) <- c("Deo Acc", "Deo Auth", "Dyn Nec", "Dyn Pos", "Epi")
+
+rownames(new_m_modalities_raw) <- c("Deo Acc", "Deo Auth", "Dyn", "Epi")
+colnames(new_m_modalities_raw) <- c("Deo Acc", "Deo Auth", "Dyn", "Epi")
 
 sieve(new_m_modalities_raw, main = "Types of modality in co-occurrence", shade = TRUE, labeling = labeling_values, rot_labels = c(top = 40, left = 0), offset_labels = c(0.5, 0, 0, 1), scale = 1)
